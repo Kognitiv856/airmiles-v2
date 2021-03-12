@@ -258,6 +258,7 @@ body {
     background: #fff;
     padding: 2em;
     border-radius: 10px;
+    box-shadow: 0 3px 14px 0 rgb(0, 0, 0, 0.2);
 }
 
 .usp__title {
