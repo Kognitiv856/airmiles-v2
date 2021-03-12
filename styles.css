@@ -155,6 +155,10 @@ body {
     margin-top: -6.5em;
 }
 
+.hero__image__container img {
+    margin: 0 auto;
+}
+
 
 @media (min-width: 640px) {
 
