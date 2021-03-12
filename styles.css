@@ -33,14 +33,14 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #343434;
-    background-image: url('mobile-images/Header_BG_Mobile_v2.png'), url('mobile-images/Footer_BG_Mobile_v2.png');
+    background-image: url('mobile-images/mobile_header_new.png'), url('mobile-images/mobile_footer_new.png');
     background-repeat: no-repeat;
     background-position: top center, bottom center;
 }
 
 @media (min-width: 640px) {
     body {
-        background-image: url('desktop-images/Header_DesktopBG.png'), url('desktop-images/Footer_DesktopBG.png');
+        background-image: url('desktop-images/desktop_header_new.png'), url('desktop-images/Footer_DesktopBG.png');
     }
 }
 
