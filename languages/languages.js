@@ -87,7 +87,7 @@ const languages = [
     {
         id: "1615825092021",
         englishText: "Flights, hotels, car rentals and activities can be booked with Air Miles, Air Miles plus cash and now cash only.",
-        arabicText: "يمكن حجز الرحلات الجوية والفنادق واستئجار السيارات والأنشطة باستخدام أميال جوية و Air Miles بالإضافة إلى النقد والآن نقدًا فقط."
+        arabicText: "يمكن حجز الرحلات الجوية والفنادق واستئجار السيارات والأنشطة باستخدام أميال جوية و أميال جوية بالإضافة إلى النقد والآن نقدًا فقط."
     },
     {
         id: "1615825193277",
