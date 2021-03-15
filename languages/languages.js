@@ -6,8 +6,8 @@ const languages = [
     }, 
     {
         id: "1615820792396",
-        englishText: "The Upgraded Airmiles App<span>Designed to enhance your experience</span>",
-        arabicText: "ترقية تطبيق Airmiles<span>مصممة لتحسين تجربتك</span>"
+        englishText: "The Upgraded Air Miles App<span>Designed to enhance your experience</span>",
+        arabicText: "ترقية تطبيق Air Miles<span>مصممة لتحسين تجربتك</span>"
     },
     {
         id: "1615821458728",
