@@ -137,7 +137,7 @@ const languages = [
     {
         id: "1615826022193",
         englishText: "Copyright 2020 Aimia Middle East",
-        arabicText: "حقوق النشر 2020 Aimia Middle East"
+        arabicText: "حقوق النشر 2020 ايميا الشرق الاوسط"
     },
     {
         id: "1615826124885",
