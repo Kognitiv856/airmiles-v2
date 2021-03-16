@@ -201,7 +201,7 @@ body {
 @media (min-width: 1200px) {
 
     .hero__section {
-        min-height: 60vh;
+        min-height: 740px;
     }
 
     .hero__image-container {
