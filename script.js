@@ -3,6 +3,7 @@ const uspCards = document.querySelectorAll('.usp__card__desk');
 const mobileImage = document.querySelector('.mobile__image');
 const translatableText = document.querySelectorAll('.translatable');
 const translateBtns = document.querySelectorAll('.language-toggle');
+const elementsForAlignment = document.querySelectorAll('.ar-align');
 
 
 $(document).ready(function() {
@@ -29,8 +30,10 @@ function changeLanguage(e) {
 
         if (e.currentTarget.id === 'arab') {
             textItem.innerHTML = returnLang.arabicText;
+            elementsForAlignment.forEach(elmnt => elmnt.classList.add('align-right'));
         } else {
             textItem.innerHTML = returnLang.englishText;
+            elementsForAlignment.forEach(elmnt => elmnt.classList.remove('align-right'));
         }
     })
 }

@@ -107,7 +107,6 @@ body {
 
 .hero__text {
     color: #fff;
-    max-width: 90ch;
     position: relative;
     z-index: 10;
 }
@@ -202,6 +201,11 @@ body {
 
     .hero__section {
         min-height: 740px;
+    }
+
+    .hero__text {
+        max-width: max-content;
+        padding-right: 400px;
     }
 
     .hero__image-container {
@@ -539,3 +543,21 @@ footer {
 
 }
 
+
+/* arabic alignment */
+
+.ar-align.align-right {
+    text-align: right;
+}
+
+
+.ar-align.align-right + .hero__button-group {
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 1200px) {
+    .hero__image-container.align-right {
+       margin-top: -4em;
+    }
+}
