@@ -10,7 +10,6 @@ const additionalAlignElements = document.querySelectorAll('.element-align');
 $(document).ready(function() {
     $("#mobile-slider").owlCarousel({
         items: 1,
-        loop: true,
         margin: 20,
         dotsData: true
     });
