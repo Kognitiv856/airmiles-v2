@@ -132,7 +132,7 @@ const languages = [
     {
         id: "1615825824853",
         englishText: "Explore the app today and spoil yourself with some amazing features, offers and rewards!",
-        arabicText: "!قم باستكشاف التطبيق اليوم ودلل نفسك ببعض الميزات الرائعة بالإضافة إلى العروض والمكافآت المذهلة"
+        arabicText: "قم باستكشاف التطبيق اليوم ودلل نفسك ببعض الميزات الرائعة بالإضافة إلى العروض والمكافآت المذهلة"
     },
     {
         id: "1615826022193",
