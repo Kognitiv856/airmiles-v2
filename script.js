@@ -5,7 +5,7 @@ const translatableText = document.querySelectorAll('.translatable');
 const translateBtns = document.querySelectorAll('.language-toggle');
 const elementsForAlignment = document.querySelectorAll('.ar-align');
 const additionalAlignElements = document.querySelectorAll('.element-align');
-
+const heroImage = document.querySelector('.hero__image');
 
 $(document).ready(function() {
     $("#mobile-slider").owlCarousel({
@@ -32,10 +32,12 @@ function changeLanguage(e) {
             textItem.innerHTML = returnLang.arabicText;
             elementsForAlignment.forEach(elmnt => elmnt.classList.add('align-right'));
             additionalAlignElements.forEach(elmnt => elmnt.classList.add('align-right'));
+            heroImage.src = 'desktop-images/desktop_mockup_main_new_AR.png';
         } else {
             textItem.innerHTML = returnLang.englishText;
             elementsForAlignment.forEach(elmnt => elmnt.classList.remove('align-right'));
             additionalAlignElements.forEach(elmnt => elmnt.classList.remove('align-right'));
+            heroImage.src = 'desktop-images/desktop_mockup_main_new.png';
         }
     })
 }
