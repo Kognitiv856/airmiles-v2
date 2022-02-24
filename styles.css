@@ -331,7 +331,7 @@ body {
         position: relative;
         height: 200px;
         overflow: hidden;
-        padding: 22px;
+        padding: 2em;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
