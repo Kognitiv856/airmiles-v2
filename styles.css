@@ -331,11 +331,15 @@ body {
         position: relative;
         height: 200px;
         overflow: hidden;
-        padding: 2em;
+        padding: 22px;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
         cursor: pointer;
+    }
+    
+    .usp__text {
+    font-size: 12px;
     }
 
     .usp__card__desk::after {
